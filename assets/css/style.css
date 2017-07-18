@@ -1,0 +1,279 @@
+/*
+Template Name : Meet App;
+Athour:Mohammad A. Mohaiman;
+email:m4mohaiman@gmail.com;
+description: #JoomShaper FrontEnd Developer Test Project; 
+*/
+
+body,
+html {
+    height: 100%;
+}
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'sfns' sans-sarif;
+}
+a:hover {
+    text-decoration: none
+}
+nav {
+    padding-top: 50px;
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 12px 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+nav a:hover {
+    background: #E65540;
+}
+.menu-trigger {
+    display: none;
+    color: #F8ECC2;
+}
+@media screen and (max-width: 500px) {
+    .menu-trigger {
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        border-top: 1px #79896D solid;
+    }
+    nav ul {
+        display: none;
+    }
+}
+#header {
+    background-image: url(../img/hero-bg.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    padding-top: 35px;
+}
+.hero-img img {
+    width: 90%;
+    margin: 50px;
+}
+.hero-text {
+    padding-top: 80px;
+    margin-left: 165px;
+}
+.hero-text h1 {
+    font-size: 45px;
+    max-width: 488px;
+    color: #fff;
+}
+.hero-text p {
+    font-size: 16px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 35px;
+}
+.howWork1 {
+    margin-top: 90px;
+}
+.howWork2 {
+    margin-top: 180px;
+}
+.section-padding {
+    padding-top: 250px;
+}
+.downloadApp {
+    background-image: linear-gradient(45deg, #FFB300 0%, #FF5D00 100%);
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*Button CSS*/
+
+.big-btn {
+    padding: 3px 0px 9px 0px;
+    width: 215px;
+    height: 63px;
+}
+.big-btn i {
+    font-size: 65px;
+    margin-right: 0px !important;
+}
+.big-btn strong {
+    font-size: 20px;
+    color: #FF6A00;
+    line-height: 24px;
+    margin-top: 5px;
+}
+.oColor {
+    color: #FF6A00;
+}
+a.btn.btn-lg.btn-primary.big-btn {
+    background: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+.big-btn .btn-text {
+    margin-top: 6px;
+}
+.big-btn small {
+    font-size: 75%;
+}
+.but-left {
+    margin-left: 15px;
+}
+.buttons {
+    margin-top: 35px;
+}
+.downloadText h1 {
+    padding-bottom: 25px;
+    color: #fff;
+}
+.downloadText p {
+    padding-bottom: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+.follow ul {
+    margin: 0;
+    padding: 0;
+}
+.follow li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+.follow .fa {
+    color: #CFCFCF;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.follow .fa:hover {
+    background-image: linear-gradient(45deg, #FFB300 0%, #FF5D00 100%);
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+}
+.footer-padding {
+    padding-top: 100px;
+}
+.footer-padding p {
+    color: #313541;
+    font-size: 14px;
+}
+.howContent img {
+    margin-bottom: 15px;
+}
+.howContent p {
+    color: #878787;
+    font-size: 16px;
+    width: 271px;
+}
+.howContent {
+    border-radius: 5px;
+}
+/*Carasol CSS*/
+
+.carasol {
+    position: relative;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.carasols {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+/*Main Carasol CSS END*/
+
+ul.caraStar {
+    margin: 0;
+    padding: 0;
+}
+ul.caraStar li {
+    list-style: none;
+    display: inline-block;
+    color: #FF7100;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.carasols p {
+    font-size: 18px;
+    color: #4A4A4A;
+}
+p.caraText {
+    font-size: 16px;
+    color: #4A4A4A;
+}
+.carasolmainPadding {
+    padding-top: 60px;
+}
+img.iconCar {
+    position: absolute;
+    left: 0;
+    top: -25px;
+}
+img.iconCar2 {
+    position: absolute;
+    left: -250px;
+}
+img.iconCar3 {
+    position: absolute;
+    right: -250px;
+}
+img.heartLogo {
+    position: absolute;
+    top: -8px;
+    left: 90px;
+    width: 50px;
+}
